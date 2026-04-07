@@ -1,0 +1,66 @@
+
+        body{
+            background: #111;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial,sans-serif;
+
+        }
+        .poster{
+            width:350px;
+            background: linear-gradient(to bottom,purple,lightblue,orange);
+            border-radius: 10px;
+            overflow: hidden;
+            text-align: center;
+        }
+        .header{
+            background: purple;
+            color: white;
+            padding: 20px;
+        }
+        .header h1{
+            margin: 0;
+            font-size: 20px;
+        }
+        .header h2{
+            margin: 5px 0 0;
+            font-size: 20px;
+        }
+        .class-box{
+            background: brown;
+            color: yellow;
+            font-weight: bold;
+            padding: 10px;
+            font-size: 18px;
+        }
+        .subjects{
+            font-size: 20px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .features{
+            text-align: center;
+            padding: 0 20px;
+            font-size: 14px;
+        }
+        .features li{
+            margin: 8px 0;
+        }
+        .Attention{
+            margin:15px 10px;
+            font-weight: bold;
+            color: darkred;
+        }
+        .contact{
+            background: purple;
+            color: yellow;
+            padding: 15px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .contact span{
+            font-size: 20px;
+        }
+
